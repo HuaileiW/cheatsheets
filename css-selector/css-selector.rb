@@ -8,9 +8,9 @@ cheatsheet do
   category do
     id 'CSS Selector'
     entry do
-      name 'css selector'
+      name 'CSS Selector'
       notes <<-'END'
-        | Selector                                 | Example               | Example description                      |
+| Selector                                 | Example               | Example description                      |
 | ---------------------------------------- | --------------------- | ---------------------------------------- |
 | [.*class*](https://www.w3schools.com/cssref/sel_class.asp) | .intro                | Selects all elements with class="intro"  |
 | [#*id*](https://www.w3schools.com/cssref/sel_id.asp) | #firstname            | Selects the element with id="firstname"  |
@@ -60,14 +60,8 @@ cheatsheet do
 | [:read-write](https://www.w3schools.com/cssref/sel_read-write.asp) | input:read-write      | Selects input elements with the "readonly" attribute NOT specified |
 | [:required](https://www.w3schools.com/cssref/sel_required.asp) | input:required        | Selects input elements with the "required" attribute specified |
 | [:root](https://www.w3schools.com/cssref/sel_root.asp) | :root                 | Selects the document's root element      |
-| [::selection](https://www.w3schools.com/cssref/sel_selection.asp) | ::selection           | Selects the portion of an element that is selected by a user |
-| [:target](https://www.w3schools.com/cssref/sel_target.asp) | #news:target          | Selects the current active #news element (clicked on a URL containing that anchor name) |
-| [:valid](https://www.w3schools.com/cssref/sel_valid.asp) | input:valid           | Selects all input elements with a valid value |
-| [:visited](https://www.w3schools.com/cssref/sel_visited.asp) | a:visited             | Selects all visited links                |
-        Or anything else **Markdown** or HTML.
+
       END
     end
   end
-
-  notes 'Some notes at the end of the cheat sheet'
 end
